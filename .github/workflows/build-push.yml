@@ -97,7 +97,7 @@ jobs:
   create-manifest:
     needs: build
     runs-on: ubuntu-latest
-    if: github.repository == 'GuYunWei/dify'
+    if: github.repository == 'langgenius/dify'
     strategy:
       matrix:
         include:
