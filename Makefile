@@ -1,5 +1,5 @@
 # Variables
-DOCKER_REGISTRY=langgenius
+DOCKER_REGISTRY=crpi-qha9zod7jj1h7qwo.cn-beijing.personal.cr.aliyuncs.com/dify-ns
 WEB_IMAGE=$(DOCKER_REGISTRY)/dify-web
 API_IMAGE=$(DOCKER_REGISTRY)/dify-api
 VERSION=latest
